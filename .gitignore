@@ -1,0 +1,7 @@
+.env
+venv/
+session.session
+onion_links.json
+last_message_id.txt
+session_name.session
+*.session
