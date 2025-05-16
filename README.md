@@ -1,4 +1,4 @@
-# 🧅 Telegram Onion Link Scraper
+# <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/telegram.svg" alt="Telegram" height="24" /> Telegram Onion Link Scraper
 
 A Python-based asynchronous script that scans a Telegram channel for `.onion` links (Dark Web URLs) and saves them to a JSON file for further analysis.
 
@@ -29,7 +29,7 @@ telegram-onion-scraper/
 ├── .env                   # Contains API credentials
 ├── last_message_id.txt    # Stores the last scanned Telegram message ID
 ├── onion_links.json       # Output file with extracted .onion links
-├── script.py              # Main script
+├── extracter.py              # Main script
 └── README.md              # Documentation
 ```
 
@@ -82,7 +82,7 @@ python extracter.py
 ```
 
 The script will connect to the specified Telegram channel, ask for your credentials and extract `.onion` links into `onion_links.json`.
-
+> Make sure to use the phone number in international format.
 ---
 
 ## 📦 Output Format
@@ -100,3 +100,6 @@ Each line in `onion_links.json` is a separate JSON object with the following str
 ```
 
 ---
+## Screenshot
+Screenshot of the tool-
+![Screenshot showing the tool in action](screenshot/screenshot.png)
